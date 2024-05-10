@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+  }
+  
+    
+  body{
+      background-image: url(img/AW-15218-2-1.jpg);
+      font-family: lato, 'iransansdnwebbold' !important;;
+      direction: rtl;
+      width: 100%;
+  }
+ 
+  .img1{ 
+    width: 100px;
+    height: 100px; 
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    justify-content:space-between;
+    align-items: center;
+    text-align: left;
+    margin:  0px 1400px 0px 60px;
+    position:absolute;
+  }
+  .container1{  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1px 100px ;}
+  .matn1{ padding: 20px 0px 80px ;
+    width: 170px;
+    height: 70px;
+    size: 300px;
+    color: rgb(226, 137, 148);
+      animation: show 4s infinite;
+      font:bold;
+      text-shadow: 1px 2px 2px rgba(0, 0, 0, 1);
+    }
+    
+    @keyframes show{
+      0% {
+        transform: scale(0.1);
+        opacity: 0;
+      }
+      60% {
+        transform: scale(1.2);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+  
+  
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+    margin: 5px auto;
+    overflow: hidden;
+    box-shadow: 0 0 7px #333;
+    position: relative;
+}
+.img2{
+  height:540px;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  
+  font-size: 15px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.slide {
+	padding-bottom: 10px;
+    position: relative;
+    text-align: center;
+    color: rgba(87, 49, 2, 0.509);
+	text-shadow: 1px 2px 2px rgb(247, 242, 242);
+    line-height: 100px;
+	font-weight: 600;
+	font-size: 2.5em;
+	letter-spacing: 2px;
+	font-family:sahel;
+}
+.box::before {
+  content: '';
+  display: block;
+  width: 90px;
+  height: 66px;
+  position: absolute;
+  left: 50%;
+  top: -4.5em;
+  margin-left: -45px;
+  margin-top: 0px;
+  background: url("images/arrow.png") no-repeat;
+}
+.box::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -6em;
+  left: 50%;
+  height: 6em;
+  border-right: solid 1px rgb(4, 0, 0);
+}
+.box :last-child {
+  margin-bottom: 0;
+}
+.image img {
+  display: block;
+  width: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+.blocks{width:1100px; margin:auto; margin-top:50px; border-top:1px solid #0a0101; font-family:sahel; letter-spacing:0; box-sizing:border-box;display:flex; display:-webkit-flex; display:-ms-flexbox; flex-wrap:wrap;}
+div.block:nth-of-type(1), div.block:nth-of-type(2){ margin-top:10px;}
+.block{float:right; width:49%; padding:0; margin:0; line-height:17px; overflow:hidden; margin-top:5px; margin:.5%; background:#0a0000;}/*height: 490px;*/
+.block img{width:100%;}
+.inger{
+font-size:16px;
+line-height:1.5em !important;
+  text-transform: none !important;
+text-shadow: 1px 2px 0px rgba(0, 0, 0, 1);
+}
+.box {
+  position: relative;
+  margin-top: 6em;
+  margin-bottom: 3em;
+}
+/**** index blog ***/
+#in_blog{
+  padding: 6px 3px 6px 3px;
+  background: #f5f5f5;
+  overflow: hidden;
+}
+.block{
+  float: right;
+  position: relative;
+  overflow: hidden;
+}
+.btxt{
+  padding: 16px 20px;
+background:rgba(0,0,0,.3);
+  color: #FFFFFF;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 2;
+  transition: all .4s linear;
+font-family:Sahel;
+text-align:center;
+}
+.title{
+  margin-bottom: 10px;
+  line-height: 35px !important;
+  color: #FFFFFF;
+  transition: all .3s linear;
+font-weight: 400;
+  text-transform: uppercase;
+font-size:24px;
+text-shadow: 1px 2px 0px rgba(0, 0, 0, 1);
+}
+.inger{
+  max-height: 0px;
+  overflow: hidden;
+  transition: all .5s linear;
+  opacity: 0;
+font-family:sahel;
+}
+.block:hover .btxt{
+  background: rgba(0,0,0,.7);
+}
+.block:hover .inger{
+  max-height: 200px;
+  opacity: 1;
+}
+.block img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: all .5s linear;
+}
+@media only screen and (min-width: 40px) and (max-width: 780px) {
+.block{float:none; width:98%; margin:0; margin-top:10px; padding:1%;}
+.inger{
+  max-height: 200px;
+  opacity: 1;
+  text-shadow:none;
+  color:#333;
+  text-align:center;
+}
+.block .btxt{
+  position:static;
+  background:#FFF;
+  text-shadow:none;
+  color:#333;
+  text-align:center;
+}
+.block:hover .btxt{
+  background: #FFF;
+}
+.block .title{
+  color:#333;
+  text-shadow:none;
+}
+}
